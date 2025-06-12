@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="relative z-10 h-full flex flex-col items-center justify-center p-4 text-white">
                 <div className="max-w-4xl text-center space-y-6 px-4">
                     <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
-                        Welcome to <span className="text-amber-500">The Gentleman's Lab</span>
+                        Welcome to <span className="text-amber-500">The Gentleman&apos;s Lab</span>
                     </h1>
                     <p className="text-lg sm:text-xl md:text-2xl leading-relaxed">
                         Premium grooming and lifestyle services for the modern gentleman.

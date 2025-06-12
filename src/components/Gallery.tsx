@@ -2,7 +2,6 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Image from 'next/image';
 
 const Gallery = () => {
   // Sample product data - replace with your actual products
@@ -62,7 +61,7 @@ const Gallery = () => {
     <div className=" py-16 px-4">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-4 tracking-wider">
-          THE GENTLEMAN'S
+          THE GENTLEMAN&apos;S
         </h2>
         <p className="text-center text-gray-600 mb-12 uppercase text-sm tracking-widest">
           Premium Grooming Essentials

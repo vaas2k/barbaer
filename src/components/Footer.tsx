@@ -70,7 +70,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} THE GENTLEMAN'S LAB. ALL RIGHTS RESERVED.</p>
+          <p>&copy; {new Date().getFullYear()} THE GENTLEMAN&apos;S LAB. ALL RIGHTS RESERVED.</p>
         </div>
       </div>
     </footer>

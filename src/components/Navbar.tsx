@@ -1,12 +1,5 @@
 import Link from "next/link";
 
-const navLinks = [
-  { name: "Home", href: "/" },
-  { name: "Services", href: "#services" },
-  { name: "About", href: "#about" },
-  { name: "Contact", href: "#contact" },
-];
-
 export default function Navbar() {
   return (
     <nav className="w-full bg-black shadow-md sticky top-0 z-50 py-[40px]">
@@ -24,7 +17,7 @@ export default function Navbar() {
         </div>
         <div className="flex items-center py-[40px]">
           <Link href="/" className="text-2xl font-bold tracking-tight text-gray-300 hover:text-gray-50">
-            The Gentleman's Lab
+            The Gentleman&apos;s Lab
           </Link>
         </div>
         <div className="hidden md:flex space-x-8">
